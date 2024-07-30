@@ -7,7 +7,7 @@ import multiprocessing
 import pandas as pd
 
 from mawpy.constants import TSC_USD_WIP_FILE_NAME
-from mawpy.steps.trace_segmentation_clustering import trace_segmentation_clustering
+from mawpy.steps.trace_segmentation_clustering_refactored_with_old_algorithm import trace_segmentation_clustering
 from mawpy.steps.update_stay_duration import update_stay_duration
 import os
 
